@@ -3,6 +3,15 @@
 # Projeyi çalıştırmak
 - İlk aşamada env dosyalarının oluşturulması gerekmekte. Aşağıdaki örnek env bilgilerini güncelledikten sonra ana dizinde env klasörü açıp içine .env adında oluşturduğunuz dosyaya kaydediniz.
 
+    - 
+        ```bash
+        DB_USER=dbkullaniciadi
+        DB_PASSWORD=dbkullanicisifresi
+        DB_NAME=dbadi
+        DB_CLUSTER=clusteradi
+        ```
+        
+
 - Sonraki aşamada proje için gerekli kütüphaneleri kurmanız gerekmektedir. Proje geliştirilirken pipenv kullanılmıştır :
     - Aşağıdaki gibi pipenv'i kurabilirsiniz.
 
