@@ -1,0 +1,9 @@
+{% extends "base/base.html" %}
+
+{% block title %} {{ page_title }} {% endblock %}
+
+{% block content %}
+    {% for user in users  %}
+        {{ user.email }}
+    {% endfor %}
+{% endblock %}

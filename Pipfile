@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-environ = "*"
+djongo = "*"
+pytz = "*"
+dnspython = "*"
+pymongo = "==3.12.1"
+django-modeladmin-reorder = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
